@@ -1,6 +1,6 @@
 # 42-libft
 
-This is the first project of the 42 school programming course.
+This is the first project of the 42 school programming course.<br />
 It'a aim is to make students understand the very basics of the C programming language, making us rewrite basic functions from the libc library
 
 ## Restrictions & Technical considerations
