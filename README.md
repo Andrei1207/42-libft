@@ -5,13 +5,13 @@ It'a aim is to make students understand the very basics of the C programming lan
 
 ## Restrictions & Technical considerations
 
- • Funcions can't have more than 25 lines
- • Declaring global variables is strictly forbidden.
- • Helper functions to break down a more complex function defined as static functions to restrict their scope to the appropriate file.
- • All files must be placed at the root of the repository.
- • Every .c file must compile with the following flags:-Wall-Wextra-Werror.
- • Must use the ar command to create your library. The use of libtool is strictlyforbidden.
- • libft.a must be created at the root of the repository
+ • Funcions can't have more than 25 lines <br />
+ • Declaring global variables is strictly forbidden.<br />
+ • Helper functions to break down a more complex function defined as static functions to restrict their scope to the appropriate file.<br />
+ • All files must be placed at the root of the repository.<br />
+ • Every .c file must compile with the following flags:-Wall-Wextra-Werror.<br />
+ • Must use the ar command to create your library. The use of libtool is strictlyforbidden.<br />
+ • libft.a must be created at the root of the repository<br />
 
 
 | Function      | Description                                                                           |
