@@ -3,7 +3,8 @@
 This is the first project of the 42 school programming course.
 It'a aim is to make students understand the very basics of the C programming language, making us rewrite basic functions from the libc library
 
-##Restrictions & Technical considerations
+## Restrictions & Technical considerations
+
  • Funcions can't have more than 25 lines
  • Declaring global variables is strictly forbidden.
  • Helper functions to break down a more complex function defined as static functions to restrict their scope to the appropriate file.
