@@ -12,33 +12,13 @@ It'a aim is to make students understand the very basics of the C programming lan
  • Every .c file must compile with the following flags:-Wall-Wextra-Werror.<br />
  • Must use the ar command to create your library. The use of libtool is strictlyforbidden.<br />
  • libft.a must be created at the root of the repository<br />
+ • Allowed external functions: malloc, free, write, va_start, va_arg, va_copy, va_end <br />
 
+## Requirements
 
-| Function      | Description                                                                           |
-| ------------- | --------------------------------------------------------------------------------------| 
-| memset | fill a byte string with a byte value |
-| bzero | write zeroes to a byte string |
-| memcpy | copy memory area |
-| memmove | copy byte string |
-| memchr | locate byte in byte string |
-| memcmp | compare byte string |
-| strlen | find length of string |
-| strdup | save a copy of a string |
-| strcpy | copy strings |
-| strncpy | copy strings size of n |
-| strcat | concatenate strings |
-| strncat | concatenate n symbols of one string to another |
-| strlcat | size-bounded string copying and concatenation |
-| strchr | locate character in string |
-| strrchr | locate character in string |
-| strstr | locate a substring in a string |
-| strnstr | locate a substring in a string |
-| strncmp | compare strings |
-| atoi | convert ASCII string to integer |
-| isalpha | alphabetic character test |
-| isdigit | decimal-digit character test |
-| isalnum | alphanumeric character test |
-| isascii | test for ASCII character |
-| isprint | printing character test (space character inclusive) |
-| toupper | lower case to upper case letter conversion |
-| tolower | upper case to lower case letter conversion |
+ • Do not implement the original printf()’s buffer management.<br />
+ • Function has to handle the following conversions: cspdiuxX% <br />
+ • The implementation will be evaluated against the behavior of the original printf().<br />
+ • Must use the command ar to create your library.<br />
+ • The use of the libtool command is strictly forbidden.<br />
+ • libftprintf.a must be created at the root of your repository. <br />
